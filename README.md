@@ -10,7 +10,7 @@
   - CSS
   - JavaScript
 2. Backend
-  -Node.js
-  -Express
-  -Hugging Face Inference API
+  - Node.js
+  - Express
+  - Hugging Face Inference API
 ### Thank you.😊
