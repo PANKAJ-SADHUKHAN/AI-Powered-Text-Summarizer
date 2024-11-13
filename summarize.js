@@ -18,7 +18,6 @@ async function summarizeText(text) {
   };
   try {
     const response = await axios.request(config);
-    // Return the summary text from the response
     return response.data[0].summary_text;
   } catch (err) {
     console.log(err);
