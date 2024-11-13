@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>AI Text Summarizer App</title>
+    <link rel="stylesheet" href="stylesheet.css">   
+  </head>
+  <body>
+    <div id="particles-js">
+    </div>
+    <h1>AI Text Summarizer App</h1>
+    <div class="container">
+      <div class="text-box">
+        <textarea id="text_to_summarize" name="text_to_summarize" placeholder="Paste in some text to summarize. (Min length is 200 chars. Max length is 100,000 chars.)" maxlength="100000"></textarea>
+        <button id="submit-button" class="submit-button" >
+          <span class="submit-button-text">Summarize</span>
+        </button>
+      </div>
+      <div class="text-box"> 
+      <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here"> </textarea>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="particles.js"></script>
+</html>
